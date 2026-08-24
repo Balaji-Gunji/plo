@@ -87,7 +87,7 @@ User = Query()
 st.title("Stress Level Prediction in Sleep Patterns")
 st.write("This system predicts stress levels using sleep-related health parameters and compares multiple machine learning algorithms.")
 
-data = pd.read_csv(r"C:\Users\DELL\PycharmProjects\HumanStress\.venv\New_HumanStress_SleepingHabits_2026\Dataset\SaYoPillow.csv")
+data = pd.read_csv("CSaYoPillow.csv")
 data.columns = [
     "snoring_rate",
     "respiration_rate",
